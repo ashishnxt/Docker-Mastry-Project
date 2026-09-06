@@ -68,7 +68,7 @@ jobs:
       - name: Build image (load locally, cached, not pushed yet)
         uses: docker/build-push-action@v6
         with:
-          context: /
+          context: .
           load: true
           push: false
           tags: |
