@@ -5,15 +5,15 @@ on:
     branches: ["main"]
     tags: ["v*.*.*"]
     paths:
-      - "phase3-advanced/**"
+      - "Docker-Mastry-Project/**"
   pull_request:
     branches: ["main"]
     paths:
-      - "phase3-advanced/**"
+      - "Docker-Mastry-Project/**"
 
 defaults:
   run:
-    working-directory: phase3-advanced
+    working-directory: Docker-Mastry-Project
 
 env:
   IMAGE_NAME: docker-master
