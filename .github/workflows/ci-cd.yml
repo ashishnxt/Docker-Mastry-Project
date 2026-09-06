@@ -5,16 +5,16 @@ on:
     branches: ["main"]
     tags: ["v*.*.*"]
     paths:
-      - "."
+      - "/"
 
   pull_request:
     branches: ["main"]
     paths:
-      - "."
+      - "/"
 
 defaults:
   run:
-    working-directory: . 
+    working-directory: /
 
 env:
   IMAGE_NAME: docker-master
